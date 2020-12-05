@@ -1,0 +1,1 @@
+*/1 * * * * /bin/cron_cmd.sh $DEVICE_IP
