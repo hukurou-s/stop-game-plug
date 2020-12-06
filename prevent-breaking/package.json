@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@slack/webhook": "^5.0.3",
     "tplink-smarthome-api": "^3.1.0"
   }
 }
