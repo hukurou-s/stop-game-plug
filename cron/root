@@ -1,1 +1,3 @@
-*/1 * * * * /bin/cron_cmd.sh $DEVICE_IP
+45 22 * * * /bin/stop_game_plug_cmd.sh $DEVICE_IP
+46 22 * * * /bin/prevent_breaking_start_cmd.sh $DEVICE_IP
+48 22 * * * /bin/prevent_breaking_stop_cmd.sh $DEVICE_IP
