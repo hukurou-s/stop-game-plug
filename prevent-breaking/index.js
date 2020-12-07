@@ -26,6 +26,7 @@ const monitorEvents = function monitorEvents(device) {
 (async () => {
     const device = await client.getDevice({ host: env.DEVICE_IP });
     console.log(device);
+    await device.setPowerState(false);
 
     monitorEvents(device);
 })();

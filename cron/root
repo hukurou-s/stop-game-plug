@@ -1,3 +1,2 @@
-0 0 * * * /bin/stop_game_plug_cmd.sh $DEVICE_IP
 0 0 * * * /bin/prevent_breaking_start_cmd.sh $DEVICE_IP $SLACK_WEBHOOK_URL
 0 6 * * * /bin/prevent_breaking_stop_cmd.sh $DEVICE_IP
